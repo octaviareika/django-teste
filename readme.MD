@@ -8,15 +8,18 @@ O projeto serve como uma demonstração (Aula de Programação Web) contendo uma
 
 ### 1. Página Inicial
 A página inicial (`/`) exibe os cards com as tecnologias usadas e a listagem de mensagens carregadas diretamente do SQLite em tempo real.
-> *(Nesta seção ficam as mensagens onde aparecem o Autor, Título e Conteúdo, exatamente como na sua imagem).*
+
+![Página Inicial](docs/home.png)
 
 ### 2. Painel Admin (Django)
 O painel de administração nativo do Django (`/admin`) permite que você gerencie o banco de dados. Na imagem que você enviou, é a tela de adição de **Mensagens** (onde você preenche Título, Conteúdo e Autor).
 
+![Painel Admin](docs/admin.png)
+
 ### 3. Página Sobre
 Uma rota adicional (`/sobre/`) que demonstra o sistema de navegação e templates do projeto, mantendo a identidade visual elegante e escura configurada via Tailwind CSS.
 
-*(Obs: Você pode colocar as imagens que você me enviou na pasta do projeto e usar o formato `![Descrição](caminho_da_imagem.png)` aqui no README depois!)*
+![Página Sobre](docs/sobre.png)
 
 ---
 
