@@ -7,12 +7,12 @@ O projeto serve como uma demonstração (Aula de Programação Web) contendo uma
 ## 📸 Telas do Projeto
 
 ### 1. Página Inicial
-A página inicial (`/`) exibe os cards com as tecnologias usadas e a listagem de mensagens carregadas diretamente do SQLite em tempo real.
+A página inicial (`/`) exibe os cards com as tecnologias usadas e a listagem de mensagens carregadas diretamente do SQLite em tempo real. Cada mensagem agora também exibe sua **Categoria** associada (quando houver).
 
-![Página Inicial](docs/home.png)
+![Página Inicial](docs/new-home.png)
 
 ### 2. Painel Admin (Django)
-O painel de administração nativo do Django (`/admin`) permite que você gerencie o banco de dados. Na imagem que você enviou, é a tela de adição de **Mensagens** (onde você preenche Título, Conteúdo e Autor).
+O painel de administração nativo do Django (`/admin`) permite que você gerencie o banco de dados. Nele você pode gerenciar as **Categorias** e as **Mensagens** (onde você preenche Título, Categoria, Conteúdo e Autor), além de poder filtrar e pesquisar mensagens.
 
 ![Painel Admin](docs/admin.png)
 
@@ -68,7 +68,7 @@ Depois disso, é só ir no `/admin` e logar com os dados criados!
 ## 📂 Estrutura do Projeto
 
 * `core/`: Configurações principais do projeto Django (`settings.py`, `urls.py`).
-* `home/`: O aplicativo que gerencia o modelo `Mensagem` e as views (`index` e `sobre`).
+* `home/`: O aplicativo que gerencia os modelos (`Mensagem` e `Categoria`) e as views (`index` e `sobre`).
 * `templates/home/`: Os arquivos HTML usando **Tailwind CSS**.
 * `Dockerfile` e `docker-compose.yml`: Receita e orquestração do ambiente Docker.
 
