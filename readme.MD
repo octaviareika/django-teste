@@ -20,6 +20,15 @@ Nesta imagem podemos ver o formulário para adicionar uma nova mensagem ao banco
 Nesta imagem podemos ver a página inicial com as mensagens cadastradas.
 ![Página Inicial](docs/botao-form.png)
 
+# Remover mensagem
+Nesta imagem, podemos ver a parte de remover mensagem por meio do id/remover
+![Remover mensagem](docs/deletar.png)
+
+# Editar mensagem
+Acessando a url mensagens/id/editar podemos editar a imagem e atualizar no banco
+![Editar mensagem](docs/editar.png)
+
+
 ---
 
 ## 🚀 Como Executar o Projeto
