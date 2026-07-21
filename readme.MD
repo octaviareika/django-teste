@@ -11,7 +11,14 @@ A página inicial (`/`) exibe os cards com as tecnologias usadas e a listagem de
 
 ![Página Inicial](docs/nova-tag.png)
 
+# Página de Forms
+Nesta imagem podemos ver o formulário para adicionar uma nova mensagem ao banco de dados.
+![Página de Forms](docs/form.png)
 
+
+# Integração a pagina inicial
+Nesta imagem podemos ver a página inicial com as mensagens cadastradas.
+![Página Inicial](docs/botao-form.png)
 
 ---
 
